@@ -1,0 +1,60 @@
+.img-size{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    
+    animation: change 1s ease-in 1s 3 reverse;
+}
+
+    @keyframes change{
+        0%{ width: 200px; height: 200px;}
+        50%{ width: 150px; height: 150px;}
+    }
+
+.container{
+    width: 650px;
+    display: flex;
+    border: 2px Solid black;
+    border-bottom: 10px solid white ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: saddlebrown;
+    border-radius: 20px;
+}
+.right{
+    margin-left: 50px;
+    margin-top: 50px;
+    line-height: 30px;
+    transition: all 1s ease-in ;
+    tra
+}
+.right:hover{
+    color: blue;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(/roseb.jpg)
+    
+}
+.mid{
+    text-align: center;
+    font-size: 20px;
+
+}
+.mid2{
+    font-size: 30px;
+    text-align: center;
+    color: bisque;
+}
+img:hover{
+    
+    content: url(/rosea.jpg);
+    counter-increment: initial;
+    width: 300px;
+    height: 300px;
+}
+    
+    
